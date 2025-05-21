@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="styles/custom.css">
 
 
-    <?php if (isset($pageTitle) && !empty($pageTitle)) { ?>
-        <title>Sunday's Kitchen &bull; <?php echo $pageTitle; ?>  </title>
-    <?php } else { ?> 
-        <title>Sunday's Kitchen</title>
-    <?php } ?> 
+    <title>Sunday's Kitchen <?php if (!empty($pageTitle)) : ?> &bull; <?php echo $pageTitle;?> <?php endif; ?> </title>
+   
 
 
     

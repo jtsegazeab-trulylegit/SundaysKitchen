@@ -1,3 +1,11 @@
-.header {
-    
+.active {
+    background-color: var(--accent); 
+    border: 1px solid var(--accent); 
+    color: white!important; 
+}
+
+.active:hover {
+    color: white!important; 
+    background-color: black;
+    border:1px solid black; 
 }
